@@ -1,3 +1,11 @@
+# @title       Neighborhood Centrality — Implementation & SIR Validation
+# @description Computes Degree, Coreness, and Neighborhood Centrality;
+#              validates ranking accuracy via SIR spreading simulation
+# @reference   Liu, Tang, Zhou & Do (2016), Physica A, 450, 636-666
+# @usage       python neighborhood_centrality.py --edgelist <file> [options]
+# @requires    networkx, numpy, scipy (optional), matplotlib (optional)
+
+
 """
 neighborhood_centrality.py
 ===========================
